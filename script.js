@@ -1,30 +1,25 @@
-for (let i = 0; i <= 10; i += 2) {
-    console.log(i);
-  }
-  for (let i = 55; i >= 20; i--) {
-    console.log(i);
-  }
-  const numbers = [3, 5, 11, 2, 8, 1, 6];
-  for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
-  }
+// const num = Number(prompt('Введите число'));
+// const result = num * 0.1;
+// console.log(`10% от числа ${num} равно ${result}`);
 
-const numbers_squared = [];
-for (let i = 0; i < numbers.length; i++) {
-  numbers_squared.push(numbers[i] * numbers[i]);
-}
-console.log(numbers_squared);
+// const num1 = Number(prompt('Введите первое число'));
+// const num2 = Number(prompt('Введите второе число'));
+// const minNum = Math.min(num1, num2);
+// console.log(`Наименьшее число: ${minNum}`);
 
+// const num = Number(prompt('Введите число'));
+// if (num < 100) {
+//   console.log('Число меньше 100');
+// } else if (num > 100) {
+//   console.log('Число больше 100');
+// } else {
+//   console.log('Число равно 100');
+// }
 
-let last_elem = numbers_squared[numbers_squared.length-1];
-alert(last_elerm);
-
-const user = {
-    first_name: 'Ivan',
-    last_name: 'Ivanov',
-    age: 20,
-    salary: 500
-  };
-  
-  const userString = `User's name is ${user.first_name} ${user.last_name}. He is ${user.age} years old.`;
-  
+// const name = prompt('Введите ваше имя');
+// const age = Number(prompt('Введите ваш возраст'));
+// if (age >= 18) {
+//   console.log(`Hello, ${name}`);
+// } else {
+//   console.log(`Hi, ${name}`);
+// }
