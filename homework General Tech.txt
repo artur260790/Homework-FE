@@ -1,0 +1,32 @@
+SELECT p.phone
+FROM Phones p
+JOIN Suppliers s ON p.supplier_id = s.supplier_id
+WHERE s.country NOT IN ('Germany', 'France');
+
+
+SELECT p.phone
+FROM Phones p
+JOIN Suppliers s ON p.supplier_id = s.supplier_id
+WHERE s.country NOT IN ('Germany', 'France');
+
+
+INSERT INTO Products (product_name, price, category_id)
+VALUES ('Product A', 15, 3),
+       ('Product B', 25, 6);
+
+
+
+DELETE FROM Suppliers
+WHERE country IN ('USA', 'Germany');
+
+
+SELECT *
+FROM Products
+WHERE price <= 20 AND category_id IN (3, 6)
+ORDER BY price DESC;
+
+
+SELECT order_number
+FROM Orders
+ORDER BY order_number DESC
+LIMIT 3;
