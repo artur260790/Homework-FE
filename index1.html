@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    header {
+      display: flex;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    nav li {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 800px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      nav ul {
+        display: none;
+      }
+
+      .news-button {
+        display: block;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Погода</li>
+        <li>Происшествия</li>
+        <li>Общество</li>
+        <li>Экономика</li>
+        <li>Экология</li>
+        <li>Наука</li>
+        <li>Спорт</li>
+        <li>Культура</li>
+        <li>Туризм</li>
+      </ul>
+      <button class="news-button">Новости</button>
+    </nav>
+  </header>
+</body>
+</html>
